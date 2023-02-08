@@ -19,7 +19,7 @@ The repo is organized in the following way:
 
 
 We also add a detailed description for the datasets used.
-1. **Random and Top**: Every editing revision is logged with the additional metadata. For the Top Dataset, you can access it through this link: 
+1. **Random and Top**: Every editing revision is logged with the additional metadata. For the Top Dataset, you can access it through this link: https://drive.google.com/file/d/1xh6K2XKsYqZtqTyy7GbQwnbIyNnh5v-t/view?usp=sharing
 2. **Current** consists of revision ids and the corresponding page ids used in our analysis. As we do not use the additional metadata for the Current dataset, it is not included.
 3. **Reference History** consists of the history of all references listed in perennial sources list used until January 2022.
     - The "source" column is a unique id assigned to a domain listed in the perennial sources list. You can map the source id to the domain using 'domain_source_id_mapping.csv' file
