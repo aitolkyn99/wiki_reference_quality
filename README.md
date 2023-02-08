@@ -6,9 +6,11 @@ A. Baigutanova, J. Myung, A.-J. Chou, D. Saez-Trumper, M. Redi, C. Jung and M. C
 
 The repo is organized in the following way:
 
+```
 ├── data                                 # Datasets used
 │   ├── random.csv.gz                    # Random Dataset
 │   ├── current.csv.gz                   # Current Dataset
 │   ├── reference_history.csv.gz         # Reference History Dataset
 └── code
     ├── psm.py                           # code used for PSM 
+```
