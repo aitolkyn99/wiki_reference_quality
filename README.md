@@ -14,7 +14,7 @@ The repo is organized in the following way:
 │   ├── reference_history.csv.gz         # Reference History Dataset
 └── code                                 # Code used
     ├── psm_co_editing.py                # Code used for PSM (sec 5.3.2)
-    ├── ...py                # Code used for PSM (sec 5.3.1)
+    ├── psm_expertise.py                # Code used for PSM (sec 5.3.1)
 ```
 
 
@@ -23,3 +23,5 @@ We also add a detailed description for the datasets used.
 2. **Current** consists of revision ids and the corresponding page ids used in our analysis. As we do not use the additional metadata for the Current dataset, it is not included.
 3. **Reference History** consists of the history of all references listed in perennial sources list used until January 2022.
     - The "source" column is a unique id assigned to a domain listed in the perennial sources list. You can map the source id to the domain using 'domain_source_id_mapping.csv' file
+    - The 'category' column is consist of numerical values in range 1~5. Each of numbers means : (1:Generally Reliable), (2:No Consensus), (3:Generally Unreliable), (4:Deprecated), (5:Blacklisted)
+    - The 'type' columns shows whether occurance of revision is finally removed or not.
