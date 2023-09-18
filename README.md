@@ -4,6 +4,8 @@ Please cite our work if using any data or script:
 
 A. Baigutanova, J. Myung, D. Saez-Trumper, A.-J. Chou, M. Redi, C. Jung and M. Cha. Longitudinal Assessment of Reference Quality on Wikipedia, In proc. of the Web Conference (WWW), April 2023
 
+Link to the publication: https://dl.acm.org/doi/10.1145/3543507.3583218
+
 
 The repo is organized in the following way:
 
